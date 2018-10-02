@@ -7,9 +7,9 @@ using namespace std ;
 int main()
 {
 	ll n =5, i = 0, j = 0,p , q ,a;
-	for(i = 0 ; i < n ; i++)
+	for(i = 1 ; i <= n ; i++)
 	{
-		for(j = 0 ; j < n ; j++)
+		for(j = 1 ; j <= n ; j++)
 		{
 			cin >> a;
 			if(a==1)
@@ -18,5 +18,5 @@ int main()
 			}	
 		}
 	}
-	cout<< abs(p - 2)+abs(q-2)<<endl;
+	cout<< abs(p - 3)+abs(q-3)<<endl;
 }	
